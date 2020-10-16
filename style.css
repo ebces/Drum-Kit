@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .buttons__button {
     background-color: #00000091;
     color: #ffffff;
@@ -18,13 +19,15 @@ body {
     height: 100px;
     width: 120px;
 }
+
 .buttons__letter {
     margin-top: 15px;
     display: block;
     text-align: center;
     font-size: 40px;
 }
-.buttons__sound-type{
+
+.buttons__sound-type {
     color: #df8816;
     display: block;
     text-align: center;
