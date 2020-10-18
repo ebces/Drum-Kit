@@ -4,11 +4,10 @@ window.addEventListener('keydown', (e) => {
   const audio = document.querySelector(`audio[data-key='${e.keyCode}']`);
   const pushedButton = document.querySelector(`div[data-key='${e.keyCode}']`);
 
-  if (audio && pushedButton) {
-    audio.currentTime = 0;
-    audio.play();
-    pushedButton.classList.add('buttons__button--active');
-  }
+  if (!audio && !pushedButton) return;
+  audio.currentTime = 0;
+  audio.play();
+  pushedButton.classList.add('buttons__button--active');
 });
 
 buttons.forEach((button) => {
