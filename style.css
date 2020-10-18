@@ -5,6 +5,7 @@ body {
 
 .buttons {
     height: 100vh;
+    min-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,21 +17,21 @@ body {
     border: 4px solid #000000;
     border-radius: 10px;
     margin: 10px;
-    height: 100px;
-    width: 120px;
+    height: 5vw;
+    width: 10vw;
 }
 
 .buttons__letter {
-    margin-top: 15px;
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 .buttons__sound-type {
     color: #df8816;
     display: block;
     text-align: center;
+    font-size: 1vw;
 }
 
 .buttons__button--active {
