@@ -1,0 +1,41 @@
+body {
+    background-image: url(assets/images/b9r5sEL.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+    height: 100vh;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons__button {
+    background-color: #00000091;
+    color: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    height: 5vw;
+    width: 10vw;
+}
+
+.buttons__letter {
+    display: block;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.buttons__sound-type {
+    color: #df8816;
+    display: block;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.buttons__button--active {
+    border: 4px solid #df8816;
+    transform: scale(1.2);
+    transition: .1s;
+}
